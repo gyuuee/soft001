@@ -11,3 +11,7 @@ git push origin master
 git remote add origin git@github.com:gyuuee/soft001.git
 
 git remote add origin git@server-name:path/repo-name.git
+
+
+
+第二次
