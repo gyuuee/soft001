@@ -22,6 +22,10 @@ git pull origin master
 #git pull origin master --allow-unrelated-history
 git pull origin master --allow-unrelated-histories
 第二次
+新的分支：git checkout -b feature1
+
+
+
 
 git@github.com:ThreeSquirrelsZGZ/LabGAMSystem.git
 https://github.com/ThreeSquirrelsZGZ/LabGAMSystem.git
@@ -30,7 +34,7 @@ git remote add origin
 2.拉取资料
 git pull origin master --allow-unrelated-histories
 3.解决冲突
-新的分支：git checkout -b feature1
+
 添加冲突文件：git add try.txt
 提交冲突文件：git commit -m "120401"
 4.提交文件
