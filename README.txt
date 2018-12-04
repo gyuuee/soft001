@@ -23,7 +23,8 @@ git pull origin master
 git pull origin master --allow-unrelated-histories
 第二次
 
-
+git@github.com:ThreeSquirrelsZGZ/LabGAMSystem.git
+https://github.com/ThreeSquirrelsZGZ/LabGAMSystem.git
 1.关联远程库：
 git remote add origin 
 2.拉取资料
