@@ -12,6 +12,9 @@ git remote add origin git@github.com:gyuuee/soft001.git
 
 git remote add origin git@server-name:path/repo-name.git
 
+推送
+ git push --set-upstream origin master
 
+git remote -v
 
 第二次
