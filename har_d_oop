@@ -1,0 +1,27 @@
+hardoop命令：（2.7.3版本）
+1、文件操作
+hdfs dfs -rm file   删除文件file
+hdfs dfs -put file dir  向dir文件上传file文件
+hadoop fs -put localfile /user/hadoop/hadoopfile
+
+hdfs dfs -ls  
+hdfs dfs -ls -R 递归查看文件目录信息
+
+
+hadoop fs -mkdir <paths> 
+示例：
+
+hadoop fs -mkdir /user/hadoop/dir1 /user/hadoop/dir2
+hadoop fs -mkdir hdfs://host1:port1/user/hadoop/dir hdfs://host2:port2/user/hadoop/dir
+
+
+2、安全模式操作
+hardoop安全模式
+bin/hadoop dfsadmin -safemode leave （deprecated）
+hdfs dfsadmin -safemode leave
+
+用户可以通过dfsadmin -safemode value   来操作安全模式，参数value的说明如下：
+enter - 进入安全模式
+leave - 强制NameNode离开安全模式
+get -   返回安全模式是否开启的信息
+wait - 等待，一直到安全模式结束。
