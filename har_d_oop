@@ -13,7 +13,7 @@ hadoop fs -mkdir <paths>
 
 hadoop fs -mkdir /user/hadoop/dir1 /user/hadoop/dir2
 hadoop fs -mkdir hdfs://host1:port1/user/hadoop/dir hdfs://host2:port2/user/hadoop/dir
-
+hadoop fs -mkdir /input
 
 2、安全模式操作
 hardoop安全模式
